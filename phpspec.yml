@@ -1,0 +1,6 @@
+suites:
+    default:
+        namespace: WeddingPlanr
+        ps4_prefix: WeddingPlanr
+        src_path: src/
+        spec_prefix: spec\

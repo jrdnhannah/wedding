@@ -1,0 +1,5 @@
+.env
+server.php
+storage
+bin
+database/db.sqlite

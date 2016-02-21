@@ -1,0 +1,29 @@
+{
+    "require": {
+        "beberlei/assert": "dev-master",
+        "phpunit/phpunit": "^5.2",
+        "laravel/framework": "~5.2",
+        "smoothphp/commandbus": "^1.1",
+        "smoothphp/querybus": "^0.0.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WeddingPlanr\\": "src/",
+            "WeddingPlanr\\App\\": "app/"
+        },
+        "files": [
+            "app/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WeddingPlanr\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
